@@ -100,13 +100,24 @@ There is also an example app based on Create React App under [`example/`](exampl
 
 ## 🦑 Development
 
-The project is authored with TypeScript and compiled with `tsc`.
+### Environment setup
 
-To start compiler in watch mode:
+1. Setup up [Barge](https://github.com/oceanprotocol/barge/blob/main/README.md) if you want to use local environment.
+2. Install [node 12+](https://nodejs.org/en/).
+3. Clone `oceanprotocol/react` repository.
 
-```bash
-npm start
-```
+   `git clone https://github.com/oceanprotocol/react.git`
+4. Install dependencies
+    ```bash
+    npm i
+    ```
+5. The project is authored with TypeScript and compiled with `tsc`. 
+
+   To start compiler in watch mode:
+
+    ```bash
+    npm start
+    ```
 
 ## ✨ Code Style
 
